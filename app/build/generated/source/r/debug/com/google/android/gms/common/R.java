@@ -8,9 +8,9 @@ package com.google.android.gms.common;
 
 public final class R {
     public static final class integer {
-        public static final int google_play_services_version = 0x7f090007;
+        public static int google_play_services_version = 0x7f0d0008;
     }
     public static final class string {
-        public static final int common_google_play_services_unknown_issue = 0x7f0b0029;
+        public static int common_google_play_services_unknown_issue = 0x7f15002a;
     }
 }
