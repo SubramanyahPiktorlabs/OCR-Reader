@@ -1,0 +1,187 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\bbddb70440ff593b8e4358b27dd05426\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2e029f4aeefdae5d29580599ca035a03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\04d88c6dabc115ac1690cb3f29480539\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\8e1a686ba1353cea3c3449862d814145\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\33461a27df213120289a7c3791d723f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\af6105433eebc9b2a2600d4c16419c7e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\714e041d5bdbcdb9a1ca9c4e1c8dc315\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee0dd4dd3befcfbb9a3492f56578ac33\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\8c39c26751881536bb12dba3beaec1d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\d2ccc7d07d04f7b7d903fedff7724ef1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\31ba121848b865525927f7d69c7ce55c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\990f0c9aa6a86a65c7dd3dee20490718\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\24985a51c024dac9c0ff15593a416511\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f467e85ac92eeb6085127acf273156c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\20f32420c26da724e73248ad0c1dff23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b3293c629623c4acd02b6a2236c59a0d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\42642d69474b3b3c592d94eb49fab281\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dac044ef6484773b72e3d921507a5269\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0d509625f2bcd673db05596e41303f35\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c38530f611df112e7caa28a395f43d31\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\641f1cb90f9a7d737dde4b934ac4a70f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5864bef76f8349fcc7095fc08b44199a\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:3:5-62
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:8:22-62
+application
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:10:5-32:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\bbddb70440ff593b8e4358b27dd05426\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\bbddb70440ff593b8e4358b27dd05426\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\04d88c6dabc115ac1690cb3f29480539\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\04d88c6dabc115ac1690cb3f29480539\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\8e1a686ba1353cea3c3449862d814145\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\8e1a686ba1353cea3c3449862d814145\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\af6105433eebc9b2a2600d4c16419c7e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\af6105433eebc9b2a2600d4c16419c7e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\714e041d5bdbcdb9a1ca9c4e1c8dc315\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\714e041d5bdbcdb9a1ca9c4e1c8dc315\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:22:5-26:19
+	android:supportsRtl
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:16:9-37
+	android:label
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:15:9-37
+	android:hardwareAccelerated
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:12:9-42
+	android:icon
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:17:9-47
+meta-data#com.google.android.gms.version
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:18:9-20:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:20:13-66
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:19:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:21:9-23:35
+	android:value
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:23:13-32
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:22:13-70
+activity#com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:label
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:26:13-38
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:25:19-100
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\bbddb70440ff593b8e4358b27dd05426\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-15.0.0.aar\bbddb70440ff593b8e4358b27dd05426\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2e029f4aeefdae5d29580599ca035a03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2e029f4aeefdae5d29580599ca035a03\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\04d88c6dabc115ac1690cb3f29480539\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-15.0.0.aar\04d88c6dabc115ac1690cb3f29480539\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\8e1a686ba1353cea3c3449862d814145\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-15.0.1.aar\8e1a686ba1353cea3c3449862d814145\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\33461a27df213120289a7c3791d723f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-flags-15.0.1.aar\33461a27df213120289a7c3791d723f3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\af6105433eebc9b2a2600d4c16419c7e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-15.0.1.aar\af6105433eebc9b2a2600d4c16419c7e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\714e041d5bdbcdb9a1ca9c4e1c8dc315\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\714e041d5bdbcdb9a1ca9c4e1c8dc315\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d40ea9640e0b7ddc7fb49378417e8736\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee0dd4dd3befcfbb9a3492f56578ac33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee0dd4dd3befcfbb9a3492f56578ac33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\8c39c26751881536bb12dba3beaec1d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\8c39c26751881536bb12dba3beaec1d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\d2ccc7d07d04f7b7d903fedff7724ef1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\d2ccc7d07d04f7b7d903fedff7724ef1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\31ba121848b865525927f7d69c7ce55c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\31ba121848b865525927f7d69c7ce55c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\990f0c9aa6a86a65c7dd3dee20490718\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\990f0c9aa6a86a65c7dd3dee20490718\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\24985a51c024dac9c0ff15593a416511\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\24985a51c024dac9c0ff15593a416511\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f467e85ac92eeb6085127acf273156c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\f467e85ac92eeb6085127acf273156c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\20f32420c26da724e73248ad0c1dff23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\20f32420c26da724e73248ad0c1dff23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b3293c629623c4acd02b6a2236c59a0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b3293c629623c4acd02b6a2236c59a0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\42642d69474b3b3c592d94eb49fab281\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\42642d69474b3b3c592d94eb49fab281\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dac044ef6484773b72e3d921507a5269\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\dac044ef6484773b72e3d921507a5269\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0d509625f2bcd673db05596e41303f35\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0d509625f2bcd673db05596e41303f35\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c38530f611df112e7caa28a395f43d31\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c38530f611df112e7caa28a395f43d31\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\641f1cb90f9a7d737dde4b934ac4a70f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\641f1cb90f9a7d737dde4b934ac4a70f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5864bef76f8349fcc7095fc08b44199a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5864bef76f8349fcc7095fc08b44199a\AndroidManifest.xml:20:5-44
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		ADDED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\OCR-Reader\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Piktorlabs\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\064341a731fca15a32fbb263f10272d5\AndroidManifest.xml:24:13-79
