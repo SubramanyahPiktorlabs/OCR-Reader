@@ -128,7 +128,8 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                         }
                     }
                 };
-        tts = new TextToSpeech(this.getApplicationContext(), listener);
+//        tts = new TextToSpeech(this.getApplicationContext(), listener); below line instead of this line
+        tts = new TextToSpeech(contextrecieved, listener);
     }
 
     /**
@@ -218,7 +219,8 @@ public final class OcrCaptureActivity extends AppCompatActivity {
         // Creates and starts the camera.  Note that this uses a higher resolution in comparison
         // to other detection examples to enable the text recognizer to detect small pieces of text.
         cameraSource =
-                new CameraSource.Builder(getApplicationContext(), textRecognizer)
+//                new CameraSource.Builder(getApplicationContext(), textRecognizer)
+                new CameraSource.Builder(contextrecieved, textRecognizer)
                 .setFacing(CameraSource.CAMERA_FACING_BACK)
                 .setRequestedPreviewSize(1280, 1024)
                 .setRequestedFps(2.0f)
@@ -317,8 +319,10 @@ public final class OcrCaptureActivity extends AppCompatActivity {
      */
     private void startCameraSource() throws SecurityException {
         // check that the device has play services available.
+//        int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
+//                getApplicationContext());
         int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
-                getApplicationContext());
+                contextrecieved);
         if (code != ConnectionResult.SUCCESS) {
             Dialog dlg =
                     GoogleApiAvailability.getInstance().getErrorDialog(this, code, RC_HANDLE_GMS);
