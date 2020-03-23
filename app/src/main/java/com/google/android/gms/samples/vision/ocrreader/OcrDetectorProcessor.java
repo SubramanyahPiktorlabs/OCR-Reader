@@ -55,6 +55,7 @@ public class OcrDetectorProcessor implements Detector.Processor<TextBlock> {
         }
     }
 
+
     /**
      * Frees the resources associated with this detection processor.
      */
