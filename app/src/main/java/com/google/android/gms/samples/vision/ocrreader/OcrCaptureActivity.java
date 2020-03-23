@@ -80,14 +80,17 @@ public final class OcrCaptureActivity extends AppCompatActivity {
     // A TextToSpeech engine for speaking a String value.
     private TextToSpeech tts;
 
+    private Context contextrecieved;
+
     /**
      * Initializes the UI and creates the detector pipeline.
      */
 //    @Override
 //    public void onCreate(Bundle bundle) {
-    public void onCreate(){
+    public void onCreate(Context mcontext){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
+        contextrecieved = mcontext;
 
         preview = (CameraSourcePreview) findViewById(R.id.preview);
         graphicOverlay = (GraphicOverlay<OcrGraphic>) findViewById(R.id.graphicOverlay);
@@ -179,7 +182,8 @@ public final class OcrCaptureActivity extends AppCompatActivity {
      */
     @SuppressLint("InlinedApi")
     private void createCameraSource(boolean autoFocus, boolean useFlash) {
-        Context context = getApplicationContext();
+//        Context context = getApplicationContext();
+        Context context = contextrecieved;
 
         // A text recognizer is created to find text.  An associated multi-processor instance
         // is set to receive the text recognition results, track the text, and maintain
