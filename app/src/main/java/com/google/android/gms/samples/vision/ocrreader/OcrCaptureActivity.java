@@ -85,7 +85,7 @@ public final class OcrCaptureActivity extends AppCompatActivity {
      */
 //    @Override
 //    public void onCreate(Bundle bundle) {
-    public void ocrDetecterMethod(){
+    public void onCreate(){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
 
