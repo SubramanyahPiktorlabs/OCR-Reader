@@ -83,9 +83,10 @@ public final class OcrCaptureActivity extends AppCompatActivity {
     /**
      * Initializes the UI and creates the detector pipeline.
      */
-    @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
+//    @Override
+//    public void onCreate(Bundle bundle) {
+    public void ocrDetecterMethod(){
+//        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
 
         preview = (CameraSourcePreview) findViewById(R.id.preview);
