@@ -92,6 +92,13 @@ public final class OcrCaptureActivity extends AppCompatActivity {
         setContentView(R.layout.ocr_capture);
         contextrecieved = mcontext;
 
+        if(mcontext != null){
+            Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
+        }
+        else{
+            Log.d(TAG,"Null Context Recieved #########:"+contextrecieved.toString());
+        }
+
         preview = (CameraSourcePreview) findViewById(R.id.preview);
         graphicOverlay = (GraphicOverlay<OcrGraphic>) findViewById(R.id.graphicOverlay);
 
@@ -321,6 +328,12 @@ public final class OcrCaptureActivity extends AppCompatActivity {
         // check that the device has play services available.
 //        int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
 //                getApplicationContext());
+        if(contextrecieved != null){
+            Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
+        }
+        else{
+            Log.d(TAG,"Null Context Recieved #########:"+contextrecieved.toString());
+        }
         int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
                 contextrecieved);
         if (code != ConnectionResult.SUCCESS) {
