@@ -91,7 +91,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
 
-    public void sayHello(){
+    public void sayHello(Context reactContext, Activity getCurrentActivity){
         Toast.makeText(this,"Undya BVC",Toast.LENGTH_LONG).show();
     }
 
