@@ -92,7 +92,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
     }
 
     public void sayHello(Context reactContext, Activity getCurrentActivity){
-        Toast.makeText(this,"Undya BVC",Toast.LENGTH_LONG).show();
+        Toast.makeText(getCurrentActivity.getApplicationContext(),"Undya BVC",Toast.LENGTH_LONG).show();
     }
 
     /**
