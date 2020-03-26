@@ -55,7 +55,7 @@ import java.util.Locale;
  * rear facing camera. During detection overlay graphics are drawn to indicate the position,
  * size, and contents of each TextBlock.
  */
-public final class OcrCaptureActivity extends AppCompatActivity {
+public class OcrCaptureActivity extends AppCompatActivity {
     private static final String TAG = "OcrCaptureActivity";
 
     // Intent request code to handle updating play services if needed.
@@ -82,15 +82,19 @@ public final class OcrCaptureActivity extends AppCompatActivity {
 
     private Context contextrecieved;
 
+    public OcrCaptureActivity(Context context){
+        contextrecieved=context;
+    }
+
     /**
      * Initializes the UI and creates the detector pipeline.
      */
 //    @Override
 //    public void onCreate(Bundle bundle) {
-    public void onCreate(Context mcontext){
+    public void caprureImage(Context mcontext){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
-        contextrecieved = mcontext;
+//        contextrecieved = mcontext;
 
         if(mcontext != null){
             Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
