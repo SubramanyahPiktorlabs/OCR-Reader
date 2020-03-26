@@ -86,6 +86,11 @@ public class OcrCaptureActivity extends AppCompatActivity {
         contextrecieved=context;
     }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+    }
+
     /**
      * Initializes the UI and creates the detector pipeline.
      */
