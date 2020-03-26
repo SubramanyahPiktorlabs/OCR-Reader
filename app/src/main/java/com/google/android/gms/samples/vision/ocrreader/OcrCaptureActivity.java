@@ -92,10 +92,10 @@ public class OcrCaptureActivity extends AppCompatActivity {
     }
 
     public void sayHello(Context reactContext, Activity getCurrentActivity){
-        if(reactContext != null){
-            Toast.makeText(reactContext,"Non Null Context",Toast.LENGTH_LONG).show();
+        if(getCurrentActivity.getApplicationContext() != null){
+            Toast.makeText(getCurrentActivity.getApplicationContext(),"Non Null Context",Toast.LENGTH_LONG).show();
         }else{
-            Toast.makeText(reactContext,"Null Context",Toast.LENGTH_LONG).show();
+            Toast.makeText(getCurrentActivity.getApplicationContext(),"Null Context",Toast.LENGTH_LONG).show();
         }
         Toast.makeText(getCurrentActivity.getApplicationContext(),"Undya BVC",Toast.LENGTH_LONG).show();
     }
