@@ -91,6 +91,10 @@ public class OcrCaptureActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
 
+    public void sayHello(){
+        Toast.makeText(this,"Undya BVC",Toast.LENGTH_LONG).show();
+    }
+
     /**
      * Initializes the UI and creates the detector pipeline.
      */
