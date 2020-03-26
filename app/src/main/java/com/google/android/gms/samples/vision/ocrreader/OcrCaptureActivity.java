@@ -100,7 +100,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
      */
 //    @Override
 //    public void onCreate(Bundle bundle) {
-    public void captureImage(Context mcontext){
+    public void captureImage(Context mcontext,Activity getCurrentActivity){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
 //        contextrecieved = mcontext;
