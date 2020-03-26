@@ -94,7 +94,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
     public void caprureImage(Context mcontext){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
-//        contextrecieved = mcontext;
+        contextrecieved = mcontext;
 
         if(mcontext != null){
             Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
