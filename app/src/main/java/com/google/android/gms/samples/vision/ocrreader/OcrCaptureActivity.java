@@ -82,6 +82,8 @@ public class OcrCaptureActivity extends AppCompatActivity {
 
     private Context contextrecieved;
 
+    private Activity recievedActivity;
+
     public OcrCaptureActivity(Context context){
         contextrecieved=context;
     }
@@ -108,9 +110,10 @@ public class OcrCaptureActivity extends AppCompatActivity {
     public void captureImage(Context mcontext,Activity getCurrentActivity){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
+        recievedActivity = getCurrentActivity;
 //        contextrecieved = mcontext;
 
-        if(mcontext != null){
+        if(recievedActivity.getApplicationContext() != null){
             Toast.makeText(this,"Non Null Context",Toast.LENGTH_LONG).show();
 //            Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
         }
@@ -156,7 +159,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
                     }
                 };
 //        tts = new TextToSpeech(this.getApplicationContext(), listener); below line instead of this line
-        tts = new TextToSpeech(contextrecieved, listener);
+        tts = new TextToSpeech(getCurrentActivity.getApplicationContext(), listener);
     }
 
     /**
@@ -211,7 +214,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
     @SuppressLint("InlinedApi")
     private void createCameraSource(boolean autoFocus, boolean useFlash) {
 //        Context context = getApplicationContext();
-        Context context = contextrecieved;
+        Context context = recievedActivity.getApplicationContext();
 
         // A text recognizer is created to find text.  An associated multi-processor instance
         // is set to receive the text recognition results, track the text, and maintain
@@ -247,7 +250,7 @@ public class OcrCaptureActivity extends AppCompatActivity {
         // to other detection examples to enable the text recognizer to detect small pieces of text.
         cameraSource =
 //                new CameraSource.Builder(getApplicationContext(), textRecognizer)
-                new CameraSource.Builder(contextrecieved, textRecognizer)
+                new CameraSource.Builder(recievedActivity.getApplicationContext(), textRecognizer)
                 .setFacing(CameraSource.CAMERA_FACING_BACK)
                 .setRequestedPreviewSize(1280, 1024)
                 .setRequestedFps(2.0f)
@@ -348,14 +351,14 @@ public class OcrCaptureActivity extends AppCompatActivity {
         // check that the device has play services available.
 //        int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
 //                getApplicationContext());
-        if(contextrecieved != null){
-            Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
+        if(recievedActivity.getApplicationContext() != null){
+            Log.d(TAG,"Not Null Context *********:"+recievedActivity.getApplicationContext().toString());
         }
         else{
-            Log.d(TAG,"Null Context Recieved #########:"+contextrecieved.toString());
+            Log.d(TAG,"Null Context Recieved #########:"+recievedActivity.getApplicationContext().toString());
         }
         int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
-                contextrecieved);
+                recievedActivity.getApplicationContext());
         if (code != ConnectionResult.SUCCESS) {
             Dialog dlg =
                     GoogleApiAvailability.getInstance().getErrorDialog(this, code, RC_HANDLE_GMS);
