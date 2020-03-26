@@ -94,13 +94,15 @@ public class OcrCaptureActivity extends AppCompatActivity {
     public void caprureImage(Context mcontext){
 //        super.onCreate(bundle);
         setContentView(R.layout.ocr_capture);
-        contextrecieved = mcontext;
+//        contextrecieved = mcontext;
 
         if(mcontext != null){
-            Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
+            Toast.makeText(this,"Non Null Context",Toast.LENGTH_LONG).show();
+//            Log.d(TAG,"Not Null Context *********:"+contextrecieved.toString());
         }
         else{
-            Log.d(TAG,"Null Context Recieved #########:"+contextrecieved.toString());
+            Toast.makeText(this,"Null Context",Toast.LENGTH_LONG).show();
+//            Log.d(TAG,"Null Context Recieved #########:"+contextrecieved.toString());
         }
 
         preview = (CameraSourcePreview) findViewById(R.id.preview);
